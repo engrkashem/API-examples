@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>API Comments</title>
+    <style>
+        #comments {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+        }
+
+        .comment {
+            margin: 10px;
+            padding: 10px;
+            border: 2px solid darkblue;
+            border-radius: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Hello</h1>
+    <button onclick="loadComments()">Load Comments</button>
+    <div id="posts">
+
+    </div>
+    <div id="comments">
+
+    </div>
+    <script src="js/comment.js"></script>
+</body>
+
+</html>
